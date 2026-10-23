@@ -53,6 +53,10 @@ public class Reactor {
         horaInicio = null;
     }
 
+    public int obtenerNumero() {
+        return IDENTIFICADOR;
+    }
+
     public EstadoReactor obtenerEstado() {
         final Duration PERIODO_DE_MANTENIMIENTO = Duration.ofSeconds(10);
 
