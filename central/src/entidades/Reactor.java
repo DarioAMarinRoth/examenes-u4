@@ -50,6 +50,7 @@ public class Reactor {
         }
         estado = EstadoReactor.APAGADO;
         ajustarTiempo();
+        horaInicio = null;
     }
 
     public EstadoReactor obtenerEstado() {
